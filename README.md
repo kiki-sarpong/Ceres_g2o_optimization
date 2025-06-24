@@ -1,6 +1,6 @@
 
 
-### Project Description
+# Project Description
 
 This project demonstrates 2D/3D optimization with ceres and g2o.
 
@@ -14,7 +14,7 @@ The "deformed" 3d pose graph was generated with G2O.
 G2O optimization is used here for only 2D problems.(3D ones were already done with CERES)
 
 
-### RUN
+### Run
 ```
 mkdir build
 cd build
@@ -76,21 +76,24 @@ I20250623 09:20:09.929637 223047542 LoadData.cpp:14] Number of total poses and c
 ```
 
 
-### Results
+## Results
 
-Original sphere
-<!-- ![image](https://github.com/kiki-sarpong/visual_odometry/blob/main/images/capture_kitti_03.PNG?raw=true) -->
+**🛑Original sphere🛑**
 
-Optimized sphere
+![image](https://github.com/kiki-sarpong/Ceres_g2o_optimization/blob/main/images/deformed_ball.png?raw=true)
 
+**🛑Optimized sphere🛑**
 
-Original ringcity odometry/map
+![image](https://github.com/kiki-sarpong/Ceres_g2o_optimization/blob/main/images/ceres_3d_optimized_ball.png?raw=true)
 
+**🛑Original ringcity odometry/map🛑**
+![image](https://github.com/kiki-sarpong/Ceres_g2o_optimization/blob/main/images/original_ringcity.png?raw=true)
 
-Optimized ringcity odometry/map
+**🛑Optimized ringcity odometry/map🛑**
+![image](https://github.com/kiki-sarpong/Ceres_g2o_optimization/blob/main/images/optimized_ringcity.png?raw=true)
 
+**🛑Original manhattan odometry/map🛑**
+![image](https://github.com/kiki-sarpong/Ceres_g2o_optimization/blob/main/images/original_manhattan.png?raw=true)
 
-Original manhattan odometry/map
-
-
-Optimized manhattan odometry/map
+**🛑Optimized manhattan odometry/map🛑**
+![image](https://github.com/kiki-sarpong/Ceres_g2o_optimization/blob/main/images/optimized_manhattan.png?raw=true)
