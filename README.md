@@ -1,6 +1,9 @@
 
 
 ### Project Description
+
+This project demonstrates 2D/3D optimization with ceres and g2o.
+
 This project is a followup to my visual odometry project here:
 https://github.com/kiki-sarpong/visual_odometry
 
