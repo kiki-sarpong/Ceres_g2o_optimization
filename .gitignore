@@ -1,0 +1,6 @@
+/build
+.DS_Store
+/bin
+*notes.md
+.vscode/
+notes_2d_g2o.md
