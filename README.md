@@ -97,3 +97,11 @@ I20250623 09:20:09.929637 223047542 LoadData.cpp:14] Number of total poses and c
 
 **🛑Optimized manhattan odometry/map🛑**
 ![image](https://github.com/kiki-sarpong/Ceres_g2o_optimization/blob/main/images/optimized_manhattan.png?raw=true)
+
+
+### Differences in libraries
+- G2O is a graph-based optimization library using mainly vertices/edges to construct an optimization problem->solution.
+- G2O has implementations for the direct and automatic use of LIE groups/LIE algebras as well as manual jacobian implementations.
+- CERES is described as a residual-based optimization library that uses manifolds to handle optimization in curved spaces.
+- CERES stores poses as simple arrays instead of vertex/edge objects with parameter blocks.
+- CERES has automatic differentiation and is simple and easy to use in some cases.
